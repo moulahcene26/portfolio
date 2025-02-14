@@ -1,0 +1,214 @@
+body {
+    margin: 2% 5%;
+    background-color: #B3D8A8;
+    font-family: 'Jost' ;  
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    gap: 2%;
+}
+#personal {
+    font-family: 'Jost' ; 
+    background-color: #3D8D7A;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    display: flex;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 10%;
+}
+
+#me {
+    width: 60%;
+    max-width: 200px; 
+    height: 200px; 
+    border-radius: 30px;
+    border-color: #A3D1C6;
+    border-width: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+#social {
+    display: flex;
+    background-color: #A3D1C6;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    width: 80%;
+   
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#social img {
+    width: 40%;
+    transition: transform 0.3s ease-in-out;
+    
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#intro {
+    background: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Jost', sans-serif; 
+    color: #FBFFE4;
+    font-size: large;
+    transition: transform 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+#personal > * {
+    margin-bottom: 5%;
+}
+#info > * {
+    margin-bottom: 5%;
+}
+#social img:hover {
+    transform: scale(1.2);
+    
+
+}
+#me:hover {
+    transform: scale(1.02);
+
+}
+#intro:hover {
+    transform: scale(1.03);
+
+}
+#social:hover {
+    transform: scale(1.01);
+
+}
+#overall  {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+#mail , #phone, #birth {
+    background-color: #A3D1C6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    width: 80%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: 'Jost', sans-serif; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#mail img, #phone img ,#birth img{
+    width: 10%;
+}
+#mail:hover, #phone:hover, #birth:hover{
+    transform: scale(1.03);
+    
+}
+a {
+    color: black; 
+    text-decoration: none;
+}
+
+
+#projects {
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 10%;
+    background-color: #FBFFE4;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    padding: 3%;
+}
+
+#up {
+    width: 90%;
+    background-color: #3D8D7A;
+    padding: 1.5%;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+#nav a {
+    font-size: large;
+    font-weight: bold;
+    color: #FDF7F4;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#nav a:hover {
+    transform: scale(1.1);
+}
+
+#down {
+    width: 90%;
+    display: flex;
+    
+    gap: 5%;
+}
+#Editing, #FrontEnd, #Kharajni, #Portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A3D1C6;
+    border-radius: 25px;
+    width: 35%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: transform 0.3s ease-in-out;     
+    color: black;
+    
+}
+#skill, #project {
+    gap: 5%;
+    
+     transition: opacity 0.3s ease;
+   
+    
+}
+#Editing:hover , #FrontEnd:hover ,#Kharajni:hover, #Portfolio:hover {
+    transform: scale(1.1);
+
+}
