@@ -227,3 +227,81 @@ a {
     transform: scale(1.03);
 
 }
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 2% 3%;
+    }
+    
+    #main {
+        gap: 3%;
+    }
+    
+    #personal {
+        width: 35%;
+    }
+    
+    #projects {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    #personal {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    #projects {
+        width: 90%;
+    }
+    
+    #down {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #Editing, #FrontEnd, #Kharajni, #Portfolio {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    
+    #nav {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 2%;
+    }
+    
+    #me {
+        width: 80%;
+        height: auto;
+    }
+    
+    #social {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    #mail, #phone, #birth {
+        width: 90%;
+        font-size: 0.9em;
+    }
+    
+    #Editing, #FrontEnd, #Kharajni, #Portfolio {
+        width: 90%;
+    }
+    
+    #nav a {
+        font-size: medium;
+    }
+}
